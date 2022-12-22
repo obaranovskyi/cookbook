@@ -10,3 +10,4 @@ builds, CI, testing, etc.
     - output-management
     - source-maps
     - watch-mode
+    - dev-server
