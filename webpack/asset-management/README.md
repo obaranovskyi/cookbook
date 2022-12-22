@@ -1,3 +1,5 @@
+More info: https://webpack.js.org/guides/asset-management/
+
 ## Notes
 ```bash
 # css

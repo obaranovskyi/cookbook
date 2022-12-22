@@ -1,9 +1,11 @@
-## Notes
+More info: https://webpack.js.org/guides/output-management/
+
 ```bash
-# css
-npm install style-loader css-loader --save-dev
-# csv, xml
-npm install --save-dev csv-loader xml-loader
-# toml, yaml, json5
-npm install toml yamljs json5 --save-dev
+npm install --save-dev html-webpack-plugin
 ```
+
+## Notes:
+By default `HtmlWebpackPlugin` by default will generate its own `index.html` file.
+
+More info about `HtmlWebpackPlugin` https://github.com/jantimon/html-webpack-plugin 
+
