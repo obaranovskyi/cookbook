@@ -8,3 +8,5 @@ builds, CI, testing, etc.
     - base-configuration
     - asset-management
     - output-management
+    - source-maps
+    - watch-mode
