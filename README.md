@@ -7,3 +7,4 @@ builds, CI, testing, etc.
 - Webpack
     - base-configuration
     - asset-management
+    - output-management
