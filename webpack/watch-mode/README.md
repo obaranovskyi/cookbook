@@ -17,3 +17,7 @@ There are a couple of different options available in webpack that help you autom
 - [webpack-dev-middleware](https://github.com/webpack/webpack-dev-middleware)
 
 
+### Watch mode
+You can instruct webpack to "watch" all files within your dependency graph for changes.
+If one of these files is updated, the code will be recompiled so you don't have to run the full build manually.
+
