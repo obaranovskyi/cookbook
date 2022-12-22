@@ -9,3 +9,5 @@ By default `HtmlWebpackPlugin` by default will generate its own `index.html` fil
 
 More info about `HtmlWebpackPlugin` https://github.com/jantimon/html-webpack-plugin 
 
+Managing output in other way: https://webpack.js.org/configuration/output/
+
