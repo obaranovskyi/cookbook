@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'RubikGemstones-Regular';
+  src: url('./RubikGemstones-Regular.ttf') format('truetype');
+  font-style: normal;
+}
+
 .hello {
   color: red;
-  background: url(./icon.svg);
+  font-size: 20px;
+  font-family: 'RubikGemstones-Regular';
+  /* Using the images in CSS */
+  /* background: url(./icon.png); */
 }
