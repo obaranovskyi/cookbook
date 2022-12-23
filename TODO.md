@@ -10,4 +10,5 @@
 - Investigate PostCSS
 - Investigate CSS modules
 - Investigate Parcel
+- [Broadcast Channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
 
