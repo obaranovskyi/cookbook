@@ -8,7 +8,8 @@ builds, CI, testing, etc.
     - base-configuration
     - asset-management
     - output-management
-    - source-maps
-    - watch-mode
-    - dev-server
-    - dev-middleware
+    - source-maps (development)
+    - watch-mode (development)
+    - dev-server (development)
+    - dev-middleware (development)
+    - entry-points (code splitting)
