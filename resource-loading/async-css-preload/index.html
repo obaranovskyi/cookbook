@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Load async CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+      INFO: async style preload
+      When we set rel to `stylesheet` we're making it consumable.
+    -->
+    <link href="style.css" rel="preload" as="style" onload="setTimeout(() => {this.rel='stylesheet'}, 5000)">
+
+  </head>
+  <body>
+    <div class="example">
+      Load async CSS (without blocking render)
+    </div>
+  </body>
+</html>
