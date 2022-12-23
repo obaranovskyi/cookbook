@@ -4,6 +4,8 @@ In this repository, I keep the problem solving recipes. Mostly it's project tool
 builds, CI, testing, etc.
 
 
+- Resource Loading
+    - load-async-css
 - Webpack
     - base-configuration
     - asset-management

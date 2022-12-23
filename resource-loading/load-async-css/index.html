@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Load async CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--
+      INFO:
+      A browser see that the media is not set to 'all' but to 'print'
+      therefore it assumes that loading is not critical.
+      So the render isn't blocked.
+    -->
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="critical-style.css">
+
+  </head>
+  <body>
+    <div class="example">
+      Load async CSS (without blocking render)
+    </div>
+  </body>
+</html>
