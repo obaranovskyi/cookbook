@@ -11,3 +11,4 @@ builds, CI, testing, etc.
     - source-maps
     - watch-mode
     - dev-server
+    - dev-middleware
