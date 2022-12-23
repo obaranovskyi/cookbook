@@ -1,5 +1,6 @@
 More info: https://webpack.js.org/guides/code-splitting/
 
+#### Dependencies:
 ```bash
 npm install --save-dev html-webpack-plugin
 ```
@@ -15,11 +16,12 @@ bundles and control resource load prioritization which, if used correctly, can h
 to dedupe and split chunks
 - **Dynamic imports**: Split code via inline function calls within modules.
 
-### As mentioned there are some pitfalls to this approach:
-- If there are any duplicated modules between entry chunks they will be included in both bundles.
-- It isn't as flexible and can't be used to dynamically split code with the core application logic.
 
-The first of these two points is definitely an issue for our example, as `lodash` is also imported within `./src/index.js`
-and will thus be duplicated in both bundles. 
-
-Let's remove this duplication in next section. (Prevent duplication)
+Although using multiple entry points per page is allowed in webpack, it should be avoided when 
+possible in favor of an entry point with multiple imports:
+```javascript
+entry: {
+    page: ['./analytics', './app']
+}
+```
+This results in a better optimization and consistent execution order when using `async` script tags.

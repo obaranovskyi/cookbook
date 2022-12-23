@@ -13,3 +13,5 @@ builds, CI, testing, etc.
     - dev-server (development)
     - dev-middleware (development)
     - entry-points (code splitting)
+    - prevent-duplication (code splitting)
+    - SplitChunksPlugin (code splitting)
