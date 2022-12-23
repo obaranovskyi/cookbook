@@ -7,4 +7,7 @@
 - dynamic import
 - Add a whole section with babel examples
 - Add a whole section with typescript examples
+- Investigate PostCSS
+- Investigate CSS modules
+- Investigate Parcel
 
