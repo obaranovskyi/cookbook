@@ -14,4 +14,5 @@ builds, CI, testing, etc.
     - dev-middleware (development)
     - entry-points (code splitting)
     - prevent-duplication (code splitting)
-    - `SplitChunksPlugin` (code splitting) (better than the previous one)
+    - split-chunks (code splitting) (usage of `SplitChunksPlugin`, better than the previous one)
+    - dynamic-import
