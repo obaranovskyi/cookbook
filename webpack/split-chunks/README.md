@@ -19,3 +19,6 @@ to dedupe and split chunks
 
 The `SplitChunksPlugin` allows us to extract common dependencies into an existing entry chunk or 
 an entirely new chunk. Let's use this to de-duplicate the `lodash` dependency from the previous example.
+
+One more interesting plugin for splitting code is [`mini-css-extract-plugin`](https://webpack.js.org/plugins/mini-css-extract-plugin)
+It is useful for splitting CSS out form the main application.
