@@ -4,15 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   mode: 'development',
   entry: {
-    index: {
-      import: './src/index.js',
-      dependOn: 'shared'
-    },
-    another: {
-      import: './src/another-module.js',
-      dependOn: 'shared'
-    },
-    shared: 'lodash',
+    index: './src/index.js',
+    another: './src/another-module.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -23,10 +16,14 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
-    // INFO: If we're going to use multiple entry points on HTML page,
-    // we need to add the following line:
   },
   optimization: {
-    runtimeChunk: 'single',
+    // INFO: With the `optimization.splitChunks` configuration option in place, we should now see the 
+    // duplicate dependency removed from our `index.bundle.js` and `another.bundle.js`. The plugin 
+    // should notice that we've separated `lodash` out to a separate chunk and removed the dead weight from
+    // our main bundle.
+    splitChunks: {
+      chunks: 'all',
+    }
   }
 };

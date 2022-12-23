@@ -17,11 +17,5 @@ to dedupe and split chunks
 - **Dynamic imports**: Split code via inline function calls within modules.
 
 
-Although using multiple entry points per page is allowed in webpack, it should be avoided when 
-possible in favor of an entry point with multiple imports:
-```javascript
-entry: {
-    page: ['./analytics', './app']
-}
-```
-This results in a better optimization and consistent execution order when using `async` script tags.
+The `SplitChunksPlugin` allows us to extract common dependencies into an existing entry chunk or 
+an entirely new chunk. Let's use this to de-duplicate the `lodash` dependency from the previous example.
