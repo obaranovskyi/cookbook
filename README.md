@@ -7,6 +7,7 @@ builds, CI, testing, etc.
 - Resource Loading
     - async-css-load
     - async-css-preload
+    - fetch-component
 - Webpack
     - base-configuration
     - asset-management
