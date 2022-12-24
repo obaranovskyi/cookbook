@@ -11,5 +11,5 @@
 - Investigate CSS modules
 - Investigate Parcel
 - Add a whole section with MFE
-- [Broadcast Channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
+    - [Broadcast Channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
 
