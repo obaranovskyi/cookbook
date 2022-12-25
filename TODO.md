@@ -9,6 +9,7 @@
 - Add a whole section with typescript examples
 - Investigate PostCSS
 - Investigate CSS modules
+- Lazy loading
 - Investigate Parcel
 - Add a whole section with MFE
     - [Broadcast Channel API](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API)
