@@ -1,1 +1,1 @@
-More info: https://webpack.js.org/guides/getting-started/
+More info: https://webpack.js.org/guides/caching/ 
