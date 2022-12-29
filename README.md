@@ -20,4 +20,4 @@ builds, CI, testing, etc.
     - prevent-duplication (code splitting)
     - split-chunks (code splitting) (usage of `SplitChunksPlugin`, better than the previous one)
     - dynamic-import
-    - output-filenames (caching)
+    - caching
