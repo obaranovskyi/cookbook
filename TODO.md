@@ -6,7 +6,7 @@
 - [Monkey Patching](https://www.audero.it/blog/2016/12/05/monkey-patching-javascript/)
 - dynamic import
 - Add babel examples (section)
-- Add a whole section with typescript examples
+- Add typescript examples (section)
 - Investigate PostCSS
 - Investigate CSS modules
 - Lazy loading 
