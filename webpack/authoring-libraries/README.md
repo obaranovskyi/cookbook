@@ -61,3 +61,6 @@ module.exports = {
 };
 ```
 
+#### Exposing CSS 
+To export stylesheets associated with your library, the [`MiniCssExtractPlugin`](https://webpack.js.org/plugins/mini-css-extract-plugin/) should be used.
+Users can then consume and load these as they would any other stylesheet.
