@@ -21,3 +21,4 @@ builds, CI, testing, etc.
     - split-chunks (code splitting) (usage of `SplitChunksPlugin`, better than the previous one)
     - dynamic-import
     - caching
+    - authoring libraries
